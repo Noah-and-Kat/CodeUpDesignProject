@@ -2,10 +2,21 @@
     width:105px;
     height:105px;
 }
+
 hr{
     border:1px solid grey;
 }
-#images{
-    width:300px;
-    height:200px;
+
+.images{
+    width:100%;
+    height:auto;
+}
+
+.small-img{
+    width:70px;
+    height:70px;
+}
+
+.row{
+    margin-bottom: 4em;
 }
