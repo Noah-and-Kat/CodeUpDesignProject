@@ -1,8 +1,16 @@
 #logo{
     width:105px;
     height:105px;
+    position: absolute;
+
+}
+.navbar-brand{
+    margin-left: 110px;
 }
 
+nav{
+    margin-top: 40px;
+}
 hr{
     border:1px solid grey;
 }
@@ -19,4 +27,19 @@ hr{
 
 .row{
     margin-bottom: 4em;
+}
+
+.navbar>.container{
+    justify-content: unset;
+}
+
+#ml-auto{
+    margin-left: auto;
+}
+
+@media screen and (max-width:576px;){
+    .navbar-brand{
+        margin-top: 500px;
+        position: absolute;
+    }
 }
