@@ -1,16 +1,27 @@
+body{
+    background-color: #E6E6E6;
+}
+
 #logo{
     width:105px;
     height:105px;
-    position: absolute;
-
-}
-.navbar-brand{
-    margin-left: 110px;
 }
 
-nav{
-    margin-top: 40px;
+#white-stripe{
+    margin-top: 50px;
+    height: 75px;
+    width: 100%;
+    background-color: #f0f0f0;
+    z-index: 1000;
 }
+/*.navbar-brand{*/
+/*    margin-left: 110px;*/
+/*}*/
+
+/*nav{*/
+/*    margin-top: 40px;*/
+/*    z-index: 1000;*/
+/*    position: fixed;*/
 hr{
     border:1px solid grey;
 }
@@ -29,12 +40,18 @@ hr{
     margin-bottom: 4em;
 }
 
-.navbar>.container{
-    justify-content: unset;
-}
+/*.navbar>.container{*/
+/*    justify-content: unset;*/
+/*}*/
 
 #ml-auto{
     margin-left: auto;
+}
+
+#big-badges > *{
+    border-radius: 50%;
+    height: 105px;
+    width: 105px;
 }
 
 @media screen and (max-width:576px;){
