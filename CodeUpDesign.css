@@ -5,6 +5,17 @@ body{
 #logo{
     width:105px;
     height:105px;
+    margin-top: 38px;
+}
+#logo-sm{
+    width:105px;
+    height:105px;
+    margin-top: 38px;
+}
+
+#nav-items{
+    margin-top: 75px;
+    margin-left: 100px;
 }
 
 #white-stripe{
@@ -12,8 +23,15 @@ body{
     height: 75px;
     width: 100%;
     background-color: #f0f0f0;
-    z-index: 1000;
+    z-index: -1;
+    position: absolute;
 }
+
+/*#top{*/
+/*    margin-top: 38px;*/
+/*}*/
+
+
 /*.navbar-brand{*/
 /*    margin-left: 110px;*/
 /*}*/
@@ -54,9 +72,8 @@ hr{
     width: 105px;
 }
 
-@media screen and (max-width:576px;){
-    .navbar-brand{
-        margin-top: 500px;
-        position: absolute;
-    }
-}
+/*@media screen and (max-width:767px;){*/
+/*    #off{*/
+/*        display: none;*/
+/*    }*/
+/*}*/
