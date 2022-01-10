@@ -1,45 +1,37 @@
-body{
-    background-color: #E6E6E6;
+body {
+    font-family: 'Abel', sans-serif;
+    background: #f0f0f0;
+    font-size: 1.2em;
 }
 
-#logo{
-    width:105px;
-    height:105px;
-    margin-top: 38px;
-}
-#logo-sm{
-    width:105px;
-    height:105px;
-    margin-top: 38px;
-}
-
-#nav-items{
-    margin-top: 75px;
-    margin-left: 100px;
-}
-
-#white-stripe{
-    margin-top: 50px;
-    height: 75px;
+.wrapper {
+    max-width: 1100px;
     width: 100%;
-    background-color: #f0f0f0;
-    z-index: -1;
-    position: absolute;
+    margin: 0 auto;
 }
 
-/*#top{*/
-/*    margin-top: 38px;*/
-/*}*/
+.brand-name {font-size: 1.75em;}
 
+nav a {
+    font-size: .75em;
+    color: black;
+}
 
-/*.navbar-brand{*/
-/*    margin-left: 110px;*/
-/*}*/
+.nav-background {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 59px;
+    width: 100%;
+    top: 37px;
+    z-index: -1000;
+}
 
-/*nav{*/
-/*    margin-top: 40px;*/
-/*    z-index: 1000;*/
-/*    position: fixed;*/
+nav .nav-item {
+    position: relative;
+    bottom: 6px;
+}
+
 hr{
     border:1px solid grey;
 }
@@ -58,22 +50,44 @@ hr{
     margin-bottom: 4em;
 }
 
-/*.navbar>.container{*/
-/*    justify-content: unset;*/
-/*}*/
-
 #ml-auto{
     margin-left: auto;
 }
 
-#big-badges > *{
-    border-radius: 50%;
-    height: 105px;
-    width: 105px;
+#big-buttons > div{
+    border: solid 10px white;
+    height: 150px;
+    width: 150px;
 }
 
-/*@media screen and (max-width:767px;){*/
-/*    #off{*/
-/*        display: none;*/
-/*    }*/
-/*}*/
+.small-buttons > div{
+    height: 28px;
+    width: 28px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.red{
+    background-color: #E6563B;
+}
+
+.orange{
+    background-color: #EB9D3A;
+}
+
+.green{
+    background-color: #7CB06C;
+}
+
+.blue{
+    background-color: #00ABA9;
+}
+
+@media screen and (min-width: 992px) {
+    .brand-name  {
+        position: relative;
+        top: 5px;
+    }
+}

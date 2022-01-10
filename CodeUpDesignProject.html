@@ -11,83 +11,74 @@
     <title>CodeUp Design Project</title>
 </head>
 <body>
-<div id="white-stripe">
-
-</div>
-<div class="container d-none d-sm-block d-md-none">
-    <div class="row">
-        <img class="text-center" id="logo-sm" src="assets/logo.png" alt="logo">
-    </div>
-</div>
-
-<!--                   xl-md screen Navbar                                            -->
-<div id="off" class="container d-none d-md-block">
-    <div class="row">
-        <div id="top" class="col d-flex"><img id="logo" src="assets/logo.png" alt="logo">
-            <h5 class="align-self-center mt-3">Codeup Design</h5>
+<!--                        NAVBAR                      -->
+<div class="nav-background bg-light"></div>
+<div class="wrapper">
+    <nav class="navbar navbar-light">
+        <div class="container-fluid">
+            <ul class="nav w-100 justify-content-center">
+                <li class="order-md-3 order-lg-0 mr-lg-auto">
+                    <a href="#" class="navbar-brand d-block w-100 mb-2 m-md-0 text-center">
+                        <img class="" width="105px" src="/assets/logo.png" alt="Codeup Design logo">
+                        <div class="brand-name d-block d-lg-inline text-center w-100">codeup design</div>
+                    </a>
+                </li>
+                <div class="w-100 d-md-none"></div><!-- used to force line break in flex items for mobile -->
+                <li class="nav-item order-md-1 order-lg-1 mt-md-5">
+                    <a class="nav-link text-uppercase px-2 px-md-3" href="">Services</a>
+                </li>
+                <li class="nav-item order-md-2 order-lg-2 mt-md-5">
+                    <a class="nav-link text-uppercase px-2 pl-md-3 pr-md-0 px-lg-3" href="">Work</a>
+                </li>
+                <li class="nav-item order-md-4 order-lg-3 mt-md-5">
+                    <a class="nav-link text-uppercase px-2 pl-md-0 pr-md-3 px-lg-3" href="">Blog</a>
+                </li>
+                <li class="nav-item order-md-5 order-lg-4 mt-md-5">
+                    <a class="nav-link text-uppercase px-2 px-md-3" href="">Contact</a>
+                </li>
+            </ul>
         </div>
-        <div class="col">
-            <div id="nav-items" class="row justify-content-between">
-                <a href="">Services</a>
-                <a href="">Work</a>
-                <a href="">Blog</a>
-                <a href="">Contact</a>
-            </div>
-        </div>
-    </div>
+    </nav>
 </div>
-<!--<nav class="navbar navbar-light bg-light">-->
-<!--    <div class="container">-->
-<!--        <img id="logo" class="nav-item" src="assets/logo.png" alt="logo">-->
-<!--        <a class="navbar-brand" href="#">CodeUp Design</a>-->
-<!--        <a id="ml-auto" class="nav-link nav-item" href="#">Services</a>-->
-<!--        <a class="nav-link nav-item" href="#">Work</a>-->
-<!--        <a class="nav-link nav-item" href="#">Blog</a>-->
-<!--        <a class="nav-link nav-item" href="#">Contact</a>-->
-<!--    </div>-->
-<!--</nav>-->
+<!--                                HEADER                             -->
 <div class="container">
     <h1 class="text-center mt-5">VISUAL DESIGN & WEB DEVELOPMENT</h1>
     <h3 class="text-center mt-3">FROM PARK CITY, UTAH</h3>
-    <div id="big-badges" class="row justify-content-around mt-5">
-        <button><span class="badge badge-pill badge-danger text-center align-middle">Design</span></button>
-        <span class="badge badge-pill badge-warning">Develop</span>
-        <span class="badge badge-pill badge-success">Support</span>
-        <span class="badge badge-pill badge-primary">Host</span>
+    <div id="big-buttons" class="row justify-content-around mt-5">
+        <div class="rounded-circle red d-flex justify-content-center"><a class="align-self-center" href="#">DESIGN</a></div>
+        <div class="rounded-circle orange d-flex justify-content-center"><a class="align-self-center" href="#">DEVELOP</a></div>
+        <div class="rounded-circle green d-flex justify-content-center"><a class="align-self-center" href="#">SUPPORT</a></div>
+        <div class="rounded-circle blue d-flex justify-content-center"><a class="align-self-center" href="#">HOST</a></div>
     </div>
     <hr>
 </div>
+<!--                              SELECTED WORK                                -->
 <div class="container">
     <div class="row">
-<!--                              SELECTED WORK                                -->
         <div class="col-lg-8">
             <header class="mb-4">Selected Work</header>
             <div class="row">
                 <div class="col-md">
                     <img class="images img-fluid" src="assets/images/apple-ipad.jpg" alt="apple-ipad">
                     <div class="row">
-                        <div class="col">
-                        Featured Project
-                        </div>
-                        <div class="col d-flex justify-content-end">
-                        <span class="badge badge-pill badge-danger">D</span>
-                        <span class="badge badge-pill badge-warning">D</span>
-                        <span class="badge badge-pill badge-success">S</span>
-                        <span class="badge badge-pill badge-primary">H</span>
+                        <div class="col">Featured Project</div>
+                        <div class="col d-flex justify-content-end small-buttons">
+                            <div class="rounded-circle red d-flex justify-content-center"><a class="align-self-center" href="#">D</a></div>
+                            <div class="rounded-circle orange d-flex justify-content-center"><a class="align-self-center" href="#">D</a></div>
+                            <div class="rounded-circle green d-flex justify-content-center"><a class="align-self-center" href="#">S</a></div>
+                            <div class="rounded-circle blue d-flex justify-content-center"><a class="align-self-center" href="#">H</a></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md">
                     <img class="images img-fluid" src="assets/images/macbook.jpg" alt="macbook">
                     <div class="row">
-                        <div class="col">
-                            Featured Project
-                        </div>
-                        <div class="col d-flex justify-content-end">
-                            <span class="badge badge-pill badge-danger">D</span>
-                            <span class="badge badge-pill badge-warning">D</span>
-                            <span class="badge badge-pill badge-success">S</span>
-                            <span class="badge badge-pill badge-primary">H</span>
+                        <div class="col">Featured Project</div>
+                        <div class="col d-flex justify-content-end small-buttons">
+                            <div class="rounded-circle red d-flex justify-content-center"><a class="align-self-center" href="#">D</a></div>
+                            <div class="rounded-circle orange d-flex justify-content-center"><a class="align-self-center" href="#">D</a></div>
+                            <div class="rounded-circle green d-flex justify-content-center"><a class="align-self-center" href="#">S</a></div>
+                            <div class="rounded-circle blue d-flex justify-content-center"><a class="align-self-center" href="#">H</a></div>
                         </div>
                     </div>
                 </div>
@@ -96,28 +87,24 @@
                 <div class="col-md">
                     <img class="images img-fluid" src="assets/images/man.jpg" alt="man">
                     <div class="row">
-                        <div class="col">
-                            Featured Project
-                        </div>
-                        <div class="col d-flex justify-content-end">
-                            <span class="badge badge-pill badge-danger">D</span>
-                            <span class="badge badge-pill badge-warning">D</span>
-                            <span class="badge badge-pill badge-success">S</span>
-                            <span class="badge badge-pill badge-primary">H</span>
+                        <div class="col">Featured Project</div>
+                        <div class="col d-flex justify-content-end small-buttons">
+                            <div class="rounded-circle red d-flex justify-content-center"><a class="align-self-center" href="#">D</a></div>
+                            <div class="rounded-circle orange d-flex justify-content-center"><a class="align-self-center" href="#">D</a></div>
+                            <div class="rounded-circle green d-flex justify-content-center"><a class="align-self-center" href="#">S</a></div>
+                            <div class="rounded-circle blue d-flex justify-content-center"><a class="align-self-center" href="#">H</a></div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md">
                     <img class="images img-fluid" src="assets/images/man.jpg" alt="man">
                     <div class="row">
-                        <div class="col">
-                            Featured Project
-                        </div>
-                        <div class="col d-flex justify-content-end">
-                            <span class="badge badge-pill badge-danger">D</span>
-                            <span class="badge badge-pill badge-warning">D</span>
-                            <span class="badge badge-pill badge-success">S</span>
-                            <span class="badge badge-pill badge-primary">H</span>
+                        <div class="col">Featured Project</div>
+                        <div class="col d-flex justify-content-end small-buttons">
+                            <div class="rounded-circle red d-flex justify-content-center"><a class="align-self-center" href="#">D</a></div>
+                            <div class="rounded-circle orange d-flex justify-content-center"><a class="align-self-center" href="#">D</a></div>
+                            <div class="rounded-circle green d-flex justify-content-center"><a class="align-self-center" href="#">S</a></div>
+                            <div class="rounded-circle blue d-flex justify-content-center"><a class="align-self-center" href="#">H</a></div>
                         </div>
                     </div>
                 </div>
