@@ -1,6 +1,7 @@
 body {
     background: #f0f0f0;
     font-size: 1.2em;
+    font-family: 'Abel', sans-serif;
 }
 
 .wrapper {
@@ -38,6 +39,8 @@ hr{
 .images{
     width:100%;
     height:auto;
+    border: 7px solid #e0e0e0;
+    border-radius: 10px;
 }
 
 .small-img{
