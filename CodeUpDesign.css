@@ -1,5 +1,4 @@
 body {
-    font-family: 'Abel', sans-serif;
     background: #f0f0f0;
     font-size: 1.2em;
 }
@@ -33,7 +32,7 @@ nav .nav-item {
 }
 
 hr{
-    border:1px solid grey;
+    border:1px solid lightgrey;
 }
 
 .images{
@@ -58,6 +57,12 @@ hr{
     border: solid 10px white;
     height: 150px;
     width: 150px;
+
+}
+
+#big-buttons > div >a{
+    color:white;
+    font-weight: bolder;
 }
 
 .small-buttons > div{
@@ -67,6 +72,7 @@ hr{
 
 a{
     text-decoration: none;
+    color:black;
 }
 
 .red{
@@ -83,6 +89,20 @@ a{
 
 .blue{
     background-color: #00ABA9;
+}
+
+.twitter{
+    height:28px;
+    width:28px;
+}
+
+.last{
+    font-family: 'Abel', sans-serif;
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
 }
 
 @media screen and (min-width: 992px) {
